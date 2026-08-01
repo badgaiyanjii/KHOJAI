@@ -1,0 +1,13 @@
+def palindrome(s):
+    new = s
+    i = len(new) - 1
+    while i >= 0:
+        new_s =print(new[i], end="")
+        i -= 1
+    return new_s
+s = input("Enter a string: ")
+if palindrome(s) == s:
+    print("\nThe string is a palindrome.")
+
+
+

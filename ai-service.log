@@ -1,0 +1,45 @@
+INFO:     Started server process [10052]
+INFO:     Waiting for application startup.
+INFO:khojai.ai:KhojAI AI matching service booted. Model initialization is lazy and will run on the first embedding request.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54281 - "GET /health/live HTTP/1.1" 200 OK
+INFO:root:Loaded ViT-B-32 model config.
+INFO:httpx:HTTP Request: HEAD https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K/resolve/main/open_clip_model.safetensors "HTTP/1.1 302 Found"
+INFO:root:Loading pretrained ViT-B-32 weights (laion2b_s34b_b79k).
+INFO:khojai.ai:Loaded OpenCLIP model ViT-B-32 for AI matching
+INFO:khojai.ai:Generated embedding for item 6a03429926507e9af024ad81 using open_clip_vit_b_32
+INFO:     127.0.0.1:54289 - "POST /internal/v1/embeddings HTTP/1.1" 200 OK
+INFO:khojai.ai:Generated embedding for item 6a036ef9f7160b0cbafae0c7 using open_clip_vit_b_32
+INFO:     127.0.0.1:54289 - "POST /internal/v1/embeddings HTTP/1.1" 200 OK
+INFO:khojai.ai:Generated embedding for item 6a037a929b725469e23bb907 using open_clip_vit_b_32
+INFO:     127.0.0.1:57195 - "POST /internal/v1/embeddings HTTP/1.1" 200 OK
+INFO:khojai.ai:Generated embedding for item 6a037a929b725469e23bb90a using open_clip_vit_b_32
+INFO:     127.0.0.1:57195 - "POST /internal/v1/embeddings HTTP/1.1" 200 OK
+INFO:khojai.ai:Computed search results for item 6a037a929b725469e23bb90a with 3 candidate embeddings and 2 matches
+INFO:     127.0.0.1:57195 - "POST /internal/v1/search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57196 - "GET /health/live HTTP/1.1" 200 OK
+INFO:khojai.ai:Generated embedding for item 6a037c3152013cf1850d1b52 using open_clip_vit_b_32
+INFO:     127.0.0.1:64162 - "POST /internal/v1/embeddings HTTP/1.1" 200 OK
+INFO:khojai.ai:Generated embedding for item 6a037c8152013cf1850d1b70 using open_clip_vit_b_32
+INFO:     127.0.0.1:51951 - "POST /internal/v1/embeddings HTTP/1.1" 200 OK
+INFO:khojai.ai:Computed search results for item 6a037c8152013cf1850d1b70 with 3 candidate embeddings and 2 matches
+INFO:     127.0.0.1:51951 - "POST /internal/v1/search HTTP/1.1" 200 OK
+INFO:khojai.ai:Generated embedding for item 6a036fbbf7160b0cbafae0e5 using open_clip_vit_b_32
+INFO:     127.0.0.1:54643 - "POST /internal/v1/embeddings HTTP/1.1" 200 OK
+INFO:khojai.ai:Computed search results for item 6a036fbbf7160b0cbafae0e5 with 3 candidate embeddings and 2 matches
+INFO:     127.0.0.1:54643 - "POST /internal/v1/search HTTP/1.1" 200 OK
+INFO:khojai.ai:Generated embedding for item 6a041791dd38cb0c7f497f4e using open_clip_vit_b_32
+INFO:     127.0.0.1:51460 - "POST /internal/v1/embeddings HTTP/1.1" 200 OK
+INFO:khojai.ai:Generated embedding for item 6a041813dd38cb0c7f497f6a using open_clip_vit_b_32
+INFO:     127.0.0.1:58394 - "POST /internal/v1/embeddings HTTP/1.1" 200 OK
+INFO:khojai.ai:Computed search results for item 6a041813dd38cb0c7f497f6a with 1 candidate embeddings and 1 matches
+INFO:     127.0.0.1:58394 - "POST /internal/v1/search HTTP/1.1" 200 OK
+INFO:khojai.ai:Generated embedding for item 6a041c40dd38cb0c7f497ff1 using open_clip_vit_b_32
+INFO:     127.0.0.1:60791 - "POST /internal/v1/embeddings HTTP/1.1" 200 OK
+INFO:khojai.ai:Computed search results for item 6a041c40dd38cb0c7f497ff1 with 1 candidate embeddings and 0 matches
+INFO:     127.0.0.1:60791 - "POST /internal/v1/search HTTP/1.1" 200 OK
+INFO:khojai.ai:Generated embedding for item 6a041c99dd38cb0c7f497fff using open_clip_vit_b_32
+INFO:     127.0.0.1:56873 - "POST /internal/v1/embeddings HTTP/1.1" 200 OK
+INFO:khojai.ai:Computed search results for item 6a041c99dd38cb0c7f497fff with 2 candidate embeddings and 0 matches
+INFO:     127.0.0.1:56873 - "POST /internal/v1/search HTTP/1.1" 200 OK
